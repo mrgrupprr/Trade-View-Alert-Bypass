@@ -19,15 +19,15 @@ def luxalgo():
         return 'Error 404'
     if request.method == 'POST':
         key = request.args.get('key')
+        coin = request.args.get('coin')
         if key == yourkey:
             requests.post(urlofthepostlink, json={ #ensert here your message that is needed for your trade signal
-                "action": "bot",
-                "message_type": "bot",
-                "bot_id": "8318377",
-                "email_token": "CEA9E9E9-E9E9-E9E9-E9E9-E9E9E9E9E9E9", 
-                "delay_seconds": 0,
-                "pair": "USD_BTC-PERP"
-            })
+                'action': 'bot',
+                'message_type': 'bot',
+                'bot_id': '8318377',
+                'email_token': 'CEA9E9E9-E9E9-E9E9-E9E9-E9E9E9E9E9E9', 
+                'delay_seconds': 0,
+                'pair': 'USD_{coin}-PERP'.format(coin=coin)})
             return 'ok'
             
         else:
