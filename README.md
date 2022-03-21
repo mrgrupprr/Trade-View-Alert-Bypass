@@ -16,6 +16,9 @@ Now your gonna edit the varible yourkey to a secure password so no one can steal
 ## Entering the DISCRIPTION.
 For this your gonna search in the file app.py for a part called json, here you want to enter your MESSAGE, But right now we only support JSON so not every bot will work.
 
+## UPLOADING IT TO GIHUB
+Make a New REPO important is it that it is private so no one can see your files, after that upload all of the edited files.
+
 # 2. Launching it on Digital Ocean.
 [watch this on how to host it.](url)
 
