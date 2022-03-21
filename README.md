@@ -24,8 +24,8 @@ Make a New REPO important is it that it is private so no one can see your files,
 
 # 3. Entering it on Tradeview.
 Now once you have done the setup, you have the IP/URL of the server.
-192.168.2.1/tvluxalgo?key=YOURKEYHERE
-You will now need to replace the IP address with the IP/URL of the SERVER.
+192.168.2.1/tvluxalgo?key=YOURKEYHERE&coin=BTC
+You will now need to replace the IP address with the IP/URL of the SERVER aswell enter your key and also enter the coin your gonna trade.
 Copy this over to Trade view and paste it to webhook. 
 
 # ALL DONE YOUR NOW SET. Have fun trading and Dont forget to like
