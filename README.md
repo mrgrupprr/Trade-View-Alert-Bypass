@@ -20,15 +20,15 @@ For this your gonna search in the file app.py for a part called json, here you w
 Make a New REPO important is it that it is private so no one can see your files, after that upload all of the edited files.
 
 # 2. Launching it on Digital Ocean.
-[watch this on how to host it.](url)
+[watch this on how to host it.](https://www.youtube.com/watch?v=pcB-GmhKK_4)
 
 # 3. Entering it on Tradeview.
-Now once you have done the setup, you have the IP of the server.
+Now once you have done the setup, you have the IP/URL of the server.
 192.168.2.1/tvluxalgo?key=YOURKEYHERE
-You will now need to replace the IP address with the IP of the SERVER.
+You will now need to replace the IP address with the IP/URL of the SERVER.
 Copy this over to Trade view and paste it to webhook. 
 
-# ALL DONE YOUR NOW SET. Have fun trading and Don`t forget to like
+# ALL DONE YOUR NOW SET. Have fun trading and Dont forget to like
 
 ## future plans.
 -support of other types than JSON
